@@ -1,0 +1,297 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    box-sizing: border-box;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: cover;
+    width: 100%;
+    /* background-position: center; */
+    background-image:url("https://nuuk-e3eaa.firebaseapp.com/assets/img/slide-2.jpg")
+    /* background-color: blueviolet; */
+    
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    /* background-color: white; */
+}
+
+.logo{
+    background-color: orange;
+    margin: 20px;
+    width:170px;
+    padding: 10px;
+}
+.logo img{
+    width: 150px;
+    margin: 10px;
+    padding: 15px;
+}
+.ul-list{
+   
+    position: relative;
+    left: -60px;
+    
+}
+.ul-list *{
+    display:flex;
+    justify-content: center;
+}
+.ul-list li a{
+    justify-content:center;
+    display:flex;
+    /* margin: 20px; */
+    /* margin-right: 180px; */
+    /* padding: 20px; */
+    flex-direction: row;
+    /* justify-content: center; */
+    text-decoration: none;  
+    /* width: 100%; */
+    margin-left: 80px;
+    padding: 20px;
+}
+
+.ul-list li {
+    list-style-type: none;
+    background-color: azure;
+   }
+
+/* .nav-btn{
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+} */
+.btn{
+    background-color: orange;
+    padding: 20px ;
+    border: none;
+    border-radius: 16px;
+    font-size: 16px;
+    margin-left: 0px;
+    width: 130px;
+    margin: 20px 5px;
+   }
+
+   .btn a{
+color: white;
+   }
+
+.header{
+    color: white;
+    font-size: 40px;
+    margin: 10px 20px;
+}
+.head0{
+    width: 60%;
+}
+.head{
+    font-size: 20px;
+    margin: 0 20px;
+}
+.btn1{
+    background-color: orange;
+    margin: 20px;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+.container{
+    border: 1px solid lightgrey;
+    padding: 14px;
+    margin: 105px 240px;
+    margin-right: 100px;
+    width: 80%;
+    background-color: rgb(217, 142, 3);
+    display: flex;
+}
+.head1{
+    margin: 20px 50px;
+    padding: 30px;
+}
+
+.head2{
+    color:black;
+
+}
+
+.container2{
+    border: 1px solid lightgray;
+    padding: 14px;
+    margin: 10px 12px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+}
+
+.card2{
+    width: 250px;
+    border: none;
+    padding: 10px;
+}
+.container3{
+    border: 1px solid lightgray;
+    padding: 14px;
+    margin: 10px 10px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+}
+.card3{
+    width: 550px;
+    border: none;
+    padding: 10px;
+}
+
+.card3 img{
+    margin: 20px 5px;
+}
+.container4{
+    border: 1px solid lightgrey;
+    padding: 14px;
+    margin: 10px 10px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+}
+.card4{
+    margin: 14px;
+    padding: 14px;
+    border: none;
+    width: 230px;
+}
+.head4{
+    color: orange;
+    font-size: 70px;
+}
+.container5{
+    border: 1px solid lightgray;
+    padding: 14px;
+    margin: 10px 10px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    /* background-color: bisque; */
+}
+.head5{
+    color: black;
+    margin: 10px 20px;
+    font-size: 50px;
+
+}
+.para5{
+    color: rgb(120, 134, 146);
+   margin: 20px 1100px;
+   width: 100%;
+}
+.card5{
+    margin: 10px 20px;
+    padding: 20px;
+    display: flex;
+    width: 900px;
+    justify-content: center;
+}
+.card5-img{
+    width: 400px;
+    padding: 10px;
+}
+.blog-footer{
+	box-sizing: border-box;
+	max-width: 100%;
+	margin-top: 100px;
+	background-image: linear-gradient(56deg,#e47312,#ff6361);
+	padding: 7% 5% 7% 3%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.paragraph-white.blog{
+	color: #fff;
+	margin: 0;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+.blog-title.blog{
+	font-size: 24px;
+	letter-spacing: 3px;
+	font-weight: 600;
+	margin: 0;
+	cursor: pointer;
+}
+
+.footer{
+	
+	position: relative;
+	width: 90%;
+	margin: 0 auto;
+	padding: 70px 25px 200px 25px;
+	border-top: 1px solid #5d5e65;
+	background-color: #c7ccdd;
+	display: flex;
+}
+.footer-cards{
+	box-sizing: border-box;
+	width: calc(33.33% - 50px);
+	margin: 0px 25px;
+	padding-right: 50px;
+}
+.about-and-line{
+	width: 50%;
+    display: flex;
+	align-items: center;
+	margin-bottom: 30px;
+}
+.about-line{
+	margin: 0;
+	width: 70%;
+	height: 1px;
+	background-color: #ff6361;
+}
+.phone-text.blog{
+	font-size: 17px;
+	line-height: 30px;
+}
+.for-button.foo{
+	margin: 0;
+}
+.blog-title.contact{
+	display: inline-block;
+	font-size: 17px;
+	margin: 0;
+}
+.blog-title.width{
+	margin: 0;
+	width: 200px;
+	padding-right: 14px;
+}
+.job-title.email{
+	margin-top: 10px;
+	font-size: 18px;
+	margin-bottom: 10px;
+	letter-spacing: 1px;
+	line-height: 30px;
+	margin-left: 35px;
+}
+
+.footer-image{
+	display: inline-block;
+	width: 20px;
+	position: relative;
+	top: 5px;
+	margin-right: 10px;
+}
+.brand.lowest{
+	position: absolute;
+	bottom: 0;
+	left: 50px;
+}
+.footer{
+	position: relative;
+	top: 150px;
+}
